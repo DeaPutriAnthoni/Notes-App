@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Catatan Saya</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Meta tags for better SEO -->
+    <meta
+      name="description"
+      content="Aplikasi catatan modern untuk mengatur pikiran Anda dengan indah"
+    />
+    <meta name="author" content="Your Name" />
+    <meta name="theme-color" content="#667eea" />
+  </head>
+  <body>
+    <loading-indicator></loading-indicator>
+
+    <header class="app-header">
+      <h1>Catatan Saya</h1>
+      <p>Atur pikiran Anda dengan indah</p>
+    </header>
+
+    <main>
+      <add-new-note
+        show-form="true"
+        button-text="Tambah Catatan"
+      ></add-new-note>
+      <search-bar
+        placeholder="Cari catatan Anda..."
+        max-length="50"
+      ></search-bar>
+
+      <div class="archive-toggle">
+        <button class="toggle-btn active" data-mode="active">
+          📝 Catatan Aktif
+        </button>
+        <button class="toggle-btn" data-mode="archived">
+          📚 Catatan Arsip
+        </button>
+      </div>
+
+      <notes-list
+        grid-columns="3"
+        show-date="true"
+        mode="active"
+      ></notes-list>
+    </main>
+  </body>
+</html>
