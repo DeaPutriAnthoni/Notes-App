@@ -1,6 +1,6 @@
 # 📝 My Notes App
 
-**My Notes App** is a beautifully crafted note-taking web application that allows users to add, search, and organize their personal notes in a dynamic and responsive layout. This project showcases the use of **Web Components** and **modular JavaScript** for building scalable front-end features without relying on external frameworks.
+**My Notes App** is a beautifully crafted note-taking web application that allows users to add, search, and organize their personal notes in a dynamic and responsive layout. This project showcases the use of **Web Components** and **modular JavaScript** for building scalable front-end features without relying on external frameworks. Using RESTful API for its database, where it can fetch and do Asynchronous JavaScript Request.
 
 ---
 
@@ -15,7 +15,7 @@
 - 🔍 Real-time keyword search with result highlighting
 - 🗂️ Display notes in 1–4 column grid views
 - 📅 Show creation date for each note
-- 🎨 Modern, responsive UI using pure CSS
+- 🎨 Modern, responsive UI where it has loading indicator
 
 ---
 
@@ -26,3 +26,4 @@
 - **JavaScript (ES6+)** – component-based interactivity
 - **Web Components** – `Custom Elements` & `Shadow DOM`  
 - **ES Modules** – modular, maintainable codebase
+- **Prettier** – code formatter
